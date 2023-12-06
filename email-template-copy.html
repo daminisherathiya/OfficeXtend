@@ -32,45 +32,40 @@
     }
 
     h1 {
-      font-size: 36px;
+      font-size: 36px !important;
     }
 
     .section-padding {
-      padding: 0 28px;
+      padding: 0 28px !important;
     }
 
     .fw-bold {
-      font-weight: 700;
+      font-weight: 700 !important;
     }
 
     .float-left {
-      float: left !important;
+      float: left;
     }
 
     .float-right {
-      float: right !important;
+      float: right;
     }
 
     .logo {
-      width: 113px;
+      width: 113px !important;
     }
-
-    .social-links {
-      text-align: end;
-    }
-
 
     @media (max-width:576px) {
       h1 {
-        font-size: 22px;
+        font-size: 22px !important;
       }
 
       body {
-        font-size: 14px;
+        font-size: 14px !important;
       }
 
       .section-padding {
-        padding: 0 10px;
+        padding: 0 10px !important;
       }
 
       .steps_row>td {
@@ -85,11 +80,46 @@
       }
 
       .logo {
-        width: 90px;
+        width: 90px !important;
       }
 
-      .social-links {
-        text-align: center;
+      .compliances {
+        vertical-align: inherit !important;
+      }
+
+      .compliances h6 {
+        font-size: 10px !important;
+      }
+
+      .compliances img {
+        width: 55px !important;
+      }
+
+      .industry-img img {
+        width: 50px !important;
+      }
+
+      .industry-img,
+      .industry-img>table tr>td {
+        padding: 6px !important;
+      }
+    }
+
+    @media (max-width:375px) {
+
+      .industry-img,
+      .footer-links>td {
+        display: block !important;
+        width: auto !important;
+      }
+
+      .footer-links>td {
+        text-align: center !important;
+        margin: 0 0 6px 0;
+      }
+
+      .logo {
+        width: 75px !important;
       }
     }
   </style>
@@ -178,11 +208,11 @@
           <tr>
             <td class="section-padding">
               <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
-                <tr class="steps_row">
+                <tr>
                   <td style="padding: 10px 8px; width: 33.33%;">
                     <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                       <tr>
-                        <td style="text-align: center; vertical-align: bottom;">
+                        <td class="compliances" style="text-align: center; vertical-align: bottom;">
                           <img src="./id-card.png" alt="Id card" style="width: 67px;">
                           <h6 class="fw-bold" style="font-size: 11px; margin: 7px 0 0 0;">24/7
                             BIOMETRIC
@@ -194,7 +224,7 @@
                   <td style="padding: 10px 8px; width: 33.33%;">
                     <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                       <tr>
-                        <td style="text-align: center; vertical-align: bottom;">
+                        <td class="compliances" style="text-align: center; vertical-align: bottom;">
                           <img src="./soc2.png" alt="Soc2 type2" style="width: 66px;">
                           <h6 class="fw-bold" style="font-size: 11px; margin: 7px 0 0 0;">SOC 2
                             TYPE 2
@@ -206,7 +236,7 @@
                   <td style="padding: 10px 8px; width: 33.33%;">
                     <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                       <tr>
-                        <td style="text-align: center; vertical-align: bottom;">
+                        <td class="compliances" style="text-align: center; vertical-align: bottom;">
                           <img src="./pci-dss.png" alt="PCI/DSS compliant" style="width: 61px;">
                           <h6 class="fw-bold" style="font-size: 11px; margin: 7px 0 0 0;">PCI/DSS
                             COMPLIANT
@@ -222,11 +252,11 @@
           <tr>
             <td class="section-padding">
               <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%; margin: 0 0 8px 0;">
-                <tr class="steps_row">
+                <tr>
                   <td style="padding: 10px 8px; width: 33.33%;">
                     <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                       <tr>
-                        <td style="text-align: center; vertical-align: bottom;">
+                        <td class="compliances" style="text-align: center; vertical-align: bottom;">
                           <img src="./24-7.png" alt="Security guard" style="width: 66px;">
                           <h6 class="fw-bold" style="font-size: 11px; margin: 7px 0 0 0;">SECURITY
                             GUARD</h6>
@@ -237,7 +267,7 @@
                   <td style="padding: 10px 8px; width: 33.33%;">
                     <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                       <tr>
-                        <td style="text-align: center; vertical-align: bottom;">
+                        <td class="compliances" style="text-align: center; vertical-align: bottom;">
                           <img src="./management-oversight.png" alt="Management oversight" style="width: 60px;">
                           <h6 class="fw-bold" style="font-size: 11px; margin: 7px 0 0 0;">
                             MANAGEMENT OVERSIGHT
@@ -249,7 +279,7 @@
                   <td style="padding: 10px 8px; width: 33.33%;">
                     <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                       <tr>
-                        <td style="text-align: center; vertical-align: bottom;">
+                        <td class="compliances" style="text-align: center; vertical-align: bottom;">
                           <img src="./hipaa.png" alt="HIPAA compliant" style="width: 66px;">
                           <h6 class="fw-bold" style="font-size: 11px; margin: 7px 0 0 0;">HIPAA
                             COMPLIANT</h6>
@@ -277,8 +307,8 @@
                 <tr>
                   <td class="section-padding">
                     <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
-                      <tr class="steps_row">
-                        <td style="padding: 7.5px 8px; width: 33.33%;">
+                      <tr>
+                        <td class="industry-img" style="padding: 7.5px 8px; width: 33.33%;">
                           <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                             <tr>
                               <td
@@ -294,7 +324,7 @@
                             </tr>
                           </table>
                         </td>
-                        <td style="padding: 7.5px 8px; width: 33.33%;">
+                        <td class="industry-img" style="padding: 7.5px 8px; width: 33.33%;">
                           <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                             <tr>
                               <td
@@ -310,7 +340,7 @@
                             </tr>
                           </table>
                         </td>
-                        <td style="padding: 7.5px 8px; width: 33.33%;">
+                        <td class="industry-img" style="padding: 7.5px 8px; width: 33.33%;">
                           <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                             <tr>
                               <td
@@ -333,8 +363,8 @@
                 <tr>
                   <td class="section-padding">
                     <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
-                      <tr class="steps_row">
-                        <td style="padding: 7.5px 8px; width: 33.33%;">
+                      <tr>
+                        <td class="industry-img" style="padding: 7.5px 8px; width: 33.33%;">
                           <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                             <tr>
                               <td
@@ -350,7 +380,7 @@
                             </tr>
                           </table>
                         </td>
-                        <td style="padding: 7.5px 8px; width: 33.33%;">
+                        <td class="industry-img" style="padding: 7.5px 8px; width: 33.33%;">
                           <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                             <tr>
                               <td
@@ -366,7 +396,7 @@
                             </tr>
                           </table>
                         </td>
-                        <td style="padding: 7.5px 8px; width: 33.33%;">
+                        <td class="industry-img" style="padding: 7.5px 8px; width: 33.33%;">
                           <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                             <tr>
                               <td
@@ -389,8 +419,8 @@
                 <tr>
                   <td class="section-padding">
                     <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%; margin: 0 0 12.5px 0;">
-                      <tr class="steps_row">
-                        <td style="padding: 7.5px 8px; width: 33.33%;">
+                      <tr>
+                        <td class="industry-img" style="padding: 7.5px 8px; width: 33.33%;">
                           <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                             <tr>
                               <td
@@ -407,7 +437,7 @@
                             </tr>
                           </table>
                         </td>
-                        <td style="padding: 7.5px 8px; width: 33.33%;">
+                        <td class="industry-img" style="padding: 7.5px 8px; width: 33.33%;">
                           <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                             <tr>
                               <td
@@ -423,7 +453,7 @@
                             </tr>
                           </table>
                         </td>
-                        <td style="padding: 7.5px 8px; width: 33.33%;">
+                        <td class="industry-img" style="padding: 7.5px 8px; width: 33.33%;">
                           <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
                             <tr>
                               <td
@@ -559,7 +589,7 @@
                           <a style="display: block; color: #ffffff; margin: 0 0 2px 0;" href="https://officextend.com/"
                             target="_blank">WWW.OFFICEXTEND.COM</a>
                         </td>
-                        <td style="text-align: end;">
+                        <td style="text-align: end; vertical-align: bottom;">
                           <a href="https://officextend.com/" style="display: inline-block;" target="_blank"><img
                               class="logo" src="./footerlogo.png" alt="OfficeXtend logo"></a>
                         </td>
@@ -585,16 +615,16 @@
           <tr>
             <td class="section-padding">
               <table cellspacing="0" cellpadding="0" style="width: 100%;">
-                <tr class="steps_row">
+                <tr>
                   <td style="padding: 11px 0 11px 0">
                     <table cellspacing="0" cellpadding="0" style="width: 100%;">
-                      <tr>
+                      <tr class="footer-links">
                         <td class="fw-bold" style="font-size: 10px;">
                           <p style="margin: 0 0 3px 0;">1 N. 1st Street Suite 621 Phoenix, AZ 85004</p>
                           <p>This advertisement was sent by <span style="font-weight: 400;">Office</span>Xtend<span
                               style="font-weight: 400;">™</span></p>
                         </td>
-                        <td class="social-links">
+                        <td style="text-align: end">
                           <a href="https://www.instagram.com/officextend/" style="display: inline-block;"
                             target="_blank"><img src="./insta.png" alt="Instagram logo"
                               style="width: 33px; margin: 0 4px 0 0;"></a>
