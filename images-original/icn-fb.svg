@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.685" y2="0.565" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff981c"/>
+      <stop offset="1" stop-color="#fbae3d"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7250" data-name="Group 7250" transform="translate(23020.471 -11175.607)">
+    <circle id="Ellipse_46" data-name="Ellipse 46" cx="29.5" cy="29.5" r="29.5" transform="translate(-23020.471 11175.607)" fill="url(#linear-gradient)"/>
+    <path id="Path_377" data-name="Path 377" d="M133.061,86.086V69.98h4.91l.737-5.71h-5.666c0-1.421-.047-2.8.013-4.17a2.106,2.106,0,0,1,2.257-2.231c.719-.041,1.441-.048,2.161-.062.462-.009.925,0,1.4,0V52.748a.992.992,0,0,0-.2-.06,26.7,26.7,0,0,0-5.635-.092A6.6,6.6,0,0,0,129.5,54.14a6.91,6.91,0,0,0-2.321,5.134c-.072,1.507-.036,3.018-.05,4.528,0,.153-.013.307-.021.491h-4.894v5.7h.453c1.336,0,2.672.015,4.008-.009.381-.007.462.116.462.473q-.016,7.515-.007,15.03v.439Z" transform="translate(-23121.283 11135.847)" fill="#fff"/>
+  </g>
+</svg>
